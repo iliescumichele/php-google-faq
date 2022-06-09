@@ -166,6 +166,30 @@ $headerLinks = [
 		</div>
 	</main>
 
+	<footer class="d-flex justify-content-between align-items-center">
+		<div class="container d-flex justify-content-between align-items-center">
+			<ul class=" d-flex justify-content-between align-items-center">
+				<li class="list-style-none" >
+					<a href="#">Google</a>
+				</li>
+				<li class="list-style-none" >
+					<a href="#">Tutto su Google</a>
+				</li>
+				<li class="list-style-none" >
+					<a href="#">Privacy</a>
+				</li>
+				<li class="list-style-none" >
+					<a href="#">Termini</a>
+				</li>
+			</ul>
+			<div class="language-foot ">
+				<i class="fa-solid fa-globe"></i>
+				<select>
+					<option value="italiano">Italiano</option>
+				</select>
+			</div>
+		</div>
+    </footer>
 
 </body>
 </html>
