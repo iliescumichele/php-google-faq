@@ -111,6 +111,14 @@ $faqs = [
     ],
 ];
 
+$headerLinks = [
+	"Introduzione",
+	"Norme sulla privacy",
+	"Termini di servizio",
+	"Tecnologie",
+	"Domande frequenti"
+];
+
 
 ?>
 
@@ -137,10 +145,15 @@ $faqs = [
                 <img src="./img/logo-extended.jpg" alt="">
                 <a class="py-4" id="title-next-to-logo" href="#">Privacy e termini</a>
             </li>
-            <li class="mx-4 pt-2 no-style my-2">
+            <li class="mx-4 pt-2 list-style-none my-2">
                 <i class="fa-solid fa-table-cells px-3"></i>
                 <i class="fa-solid fa-circle"></i>
             </li>
+        </ul>
+        <ul class="d-flex">
+            <?php foreach($headerLinks as $link) :?>
+                <li class="mx-4 py-2 list-style-none"><a href="#"><?php echo $link ?></a></li>
+            <?php endforeach;?>
         </ul>
     </header>
 
